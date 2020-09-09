@@ -1,0 +1,22 @@
+<?php
+class Conexion {
+	private $conexion;
+
+	public function __construct () {
+		/*$this->conexion = new mysqli('localhost', 'root', '', 'base');*/
+		$this->conexion = new mysqli('sql311.epizy.com', 'epiz_26659599', 'q7Ss3ABM1rHleDG', 'epiz_26659599_base');
+		$this->conexion->set_charset('utf8');
+	}
+
+	public function consultar ($sql) {
+		return $this->conexion->query($sql)->fetch_all();
+	}
+
+	public function actualizar ($sql) {
+		return $this->conexion->query($sql);
+	}
+
+	public function cerrar () {
+		$this->conexion->close();
+	}
+}

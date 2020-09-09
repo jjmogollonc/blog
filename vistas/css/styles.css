@@ -1,0 +1,107 @@
+html{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 1);
+}
+body {
+    background-color: rgba(255, 255, 255, 1);
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    /*padding-top: 80px; */
+}
+
+
+/* #full-screen-background-image {
+    z-index: -999;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}*/
+
+header {
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+   /* width: 100%;*/
+    /*left: 0;  Posicionamos la cabecera al lado izquierdo */
+    /*top: 0; /* Posicionamos la cabecera pegada arriba */
+    /*position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+    width: 100%;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.2%;
+    height: auto;
+    border-radius: 10px;
+    margin: auto;
+ 
+}
+
+.container .row {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    padding: 0%;
+    margin: auto;
+    height: auto;
+}
+
+nav a img {
+    border-radius: 180px;
+    width: 30px;
+    height: 30px;
+}
+
+i {
+    color: rgba(255, 255, 255, 0.0);
+}
+
+i:hover {
+    color: rgba(15, 65, 99, 0.521);
+}
+
+td {
+    text-align: justify;
+    font-style: italic;
+    overflow: hidden;
+}
+
+.titulos {
+    text-align: center;
+    color: #000000;
+}
+
+.lead {
+   
+    padding: 1%;
+    text-align: justify;
+}
+
+.contentItem {
+    text-align: justify;
+}
+
+.boton {
+    padding: 2%;
+    text-align: justify;
+    text-overflow: ellipsis;
+}
+p{
+    text-align: justify;
+    font-size: 12px;
+
+}
+
